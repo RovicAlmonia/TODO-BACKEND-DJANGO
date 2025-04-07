@@ -13,7 +13,7 @@ DEBUG = os.environ.get("DEBUG", "False").lower() == "true"
 
 # ALLOWED_HOSTS: Ensuring it's properly formatted
 ALLOWED_HOSTS = [
-    "todo-app-backend-1-j1c6.onrender.com",  # Your Render backend
+    "todo-backend-django-zw75.onrender.com",  # Your Render backend
     ".onrender.com",  # Allow subdomains on Render
     "localhost",  # For local development
     "127.0.0.1"  # Localhost alternative
