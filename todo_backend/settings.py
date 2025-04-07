@@ -97,14 +97,14 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # CORS settings (Ensures frontend can communicate with backend)
 CORS_ALLOWED_ORIGINS = [
-    "https://bling011.github.io",  # Allow GitHub Pages frontend
-    "https://todo-app-backend-1-j1c6.onrender.com",  # Allow your deployed backend
+    "https://RovicAlmonia.github.io",  # Allow GitHub Pages frontend
+    "https://todo-backend-django-zw75.onrender.com/",  # Allow your deployed backend
 ]
 
 # Allow GitHub Pages and backend API server to bypass CSRF protection
 CSRF_TRUSTED_ORIGINS = [
-    "https://bling011.github.io",
-    "https://todo-app-backend-1-j1c6.onrender.com",
+    "https://RovicAlmonia.github.io",
+    "https://todo-backend-django-zw75.onrender.com/",
 ]
 
 # Enable CORS for specific methods (optional, useful for security)
