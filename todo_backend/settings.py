@@ -12,12 +12,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY", "your-default-secret-key")  # Add a fa
 DEBUG = os.environ.get("DEBUG", "False").lower() == "true"
 
 # ALLOWED_HOSTS: Ensuring it's properly formatted
-ALLOWED_HOSTS = [
-    "todo-backend-django-zw75.onrender.com",  # Your Render backend
-    ".onrender.com",  # Allow subdomains on Render
-    "localhost",  # For local development
-    "127.0.0.1"  # Localhost alternative
-]
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 INSTALLED_APPS = [
