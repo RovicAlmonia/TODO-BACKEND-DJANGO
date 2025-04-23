@@ -69,6 +69,8 @@ DATABASES = {
     "default": dj_database_url.parse(database_url)
 }
 
+DATABASES["default"] = dj_database_url.parse("postgresql://database_todo_g1qt_user:ItSs1VxKYqPBii1tX3HwhQHP6KUkDLch@dpg-d045ec49c44c7399vo60-a.oregon-postgres.render.com/database_todo_g1qt")
+
 # Password validation
 AUTH_PASSWORD_VALIDATORS = [
     {'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator'},
